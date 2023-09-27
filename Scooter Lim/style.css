@@ -1,0 +1,65 @@
+body{
+    width:1000px;
+    margin:auto;
+    background-image: URL(img/background.jpg);
+    background-size:cover;
+}
+
+#square{
+    height: 400px;
+  width: 1000px;
+  background-color: black;
+  opacity: 50%;
+  padding-bottom: 400px;
+  
+}
+
+header, nav{
+    text-align: center;
+}
+
+header{
+    color: limegreen;
+}
+
+header > img{
+    width: 300px;
+}
+
+nav{
+    background-color: limegreen;
+    padding: 15px;
+}
+
+.monopattino{
+    color: white;
+}
+
+.check{
+    display: block;
+}
+
+div > h2{
+    display:inline-block
+}
+
+.charge-t1{
+    height: 35px;
+    width: 400px;
+    background-color: yellow;
+    border-radius: 19px
+}
+
+.charge-t2{
+    height: 35px;
+    width: 600px;
+    background-color: limegreen;
+    border-radius: 19px
+}
+
+.charge-t3{
+    height: 35px;
+    width: 200px;
+    background-color: brown;
+    border-radius: 19px
+}
